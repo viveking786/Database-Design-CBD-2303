@@ -1,0 +1,213 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading-page {
+    text-align: center;
+}
+
+h3.log_fr_in {
+    text-align: center;
+}
+
+form.lgn_form {
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+    width: 500px;
+    box-shadow: 0 0 15px 0px #c1c1c1;
+}
+
+form.lgn_form input[type="text"] {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+form.lgn_form input[type="password"] {
+    margin-bottom: 20px;
+}
+
+.heading-page a.reg:nth-child(1) {
+    background: #dc3545;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    color: #FFF;
+    margin-right: 10px;
+}
+
+.heading-page a.reg:nth-child(2) {
+    background: #007bff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+form.lgn_form input[type="submit"] {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 6px 15px 6px 10px;
+    width: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+form.lgn_form input[type="submit"]:focus {
+    outline: none;
+}
+
+form.lgn_form input[type="text"], form.lgn_form input[type="password"] {
+    border: 1px solid #ccc !important;
+    height: 30px;
+    border-radius: 3px;
+}
+
+
+/********** Register Page CSS ************/
+
+.logo {
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+.nav-items ul {
+    list-style: none;
+}
+
+.nav-items ul li {
+    width: auto;
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #FFF;
+    /* border-radius: 3px; */
+}
+
+.nav-items ul li:nth-child(1) a {
+    background: #007bff;
+}
+
+.nav-items ul li:nth-child(2) a {
+    background: #28a745;
+}
+
+.nav-items ul li:nth-child(3) a {
+    background: #dc3545;
+}
+
+.nav-items ul li:nth-child(4) a {
+    background: #ffc107;
+}
+
+.nav-items ul li:nth-child(5) a {
+    background: #343a40;
+}
+
+.nav-items {
+    display: block;
+    margin: auto;
+    max-width: 700px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.logo a {
+    background: #17a2b8;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+h1.login-title {
+    text-align: center;
+    font-weight: 600;
+}
+
+.add-new form {
+    margin-top: 30px;
+    /* text-align: center; */
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+    width: 500px;
+    box-shadow: 0 0 15px 0px #c1c1c1;
+}
+
+.add-new form input[type="text"],.add-new form input[type="number"],.add-new form input[type="password"] {
+    width: 100%;
+    border: 1px solid #CCC;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+input.login-button {
+    width: 100%;
+    border: none;
+    background: #28a745;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.update-staff table th {
+    background: #007bff;
+    color: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+td.edit_rec_td {
+    background: #28a745;
+}
+
+td.delete_rec_td {
+    background: #dc3545;
+}
+
+td.edit_rec_td a, td.delete_rec_td a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+td.cus_order {
+    background: #ffc107;
+}
+
+td.cus_order_edit {
+    background: #28a745;
+}
+
+td.cus_order_remove {
+    background: #dc3545;
+}
+
+td.cus_order a, td.cus_order_edit a, td.cus_order_remove a{
+    color: #FFF;
+}
+
+h3.not_allowed {
+    text-align: center;
+}
+
+
+
+/********* Ends Here ************/
